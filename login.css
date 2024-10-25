@@ -1,0 +1,25 @@
+body {
+    background-image: url(gambar/GAMBAR.jpg);
+    background-size: cover; /* Mengubah ukuran gambar agar memenuhi satu layar */
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+.login-box {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: red;
+    border: none;
+}
