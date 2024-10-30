@@ -117,6 +117,8 @@ $todo_lists = $result->fetch_all(MYSQLI_ASSOC);
             <input type="text" name="search" placeholder="Cari Tugas" class="form-control" value="<?php echo htmlspecialchars($search); ?>">
             <button type="submit" class="btn btn-primary mt-2">Cari</button>
         </form>
+        <a href="../tasks/create_list.php" class="btn btn-success mt-2">Tambah To-Do List</a>
+        <a href="../auth/logout.php" class="btn btn-danger mt-2">Logout</a>
     </div>
 
     <script>
